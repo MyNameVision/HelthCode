@@ -34,6 +34,21 @@ public static void main(String[]args){
          System.out.println("StringBuffer:"+"String is not Pelindrom!!");
      }
 
+
+     // using normal for loop
+     String reverse ="";
+    // Using for loop
+    for(int i=pelin.length()-1;i>=0;i--){
+         reverse = reverse + pelin.charAt(i);
+    }    
+  
+    if(reverse.equals(pelin)){
+    System.out.println("Using For Loop :"+ "String is Pelindrome");
+     }
+   else {
+         System.out.println("Using for loop :"+"String is not Pelindrom!!");
+     }
+
      sc.close();
 }
 }
