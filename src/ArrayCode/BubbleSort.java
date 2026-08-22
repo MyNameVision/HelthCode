@@ -149,19 +149,11 @@ public class BubbleSort {
              Arrays.sort(number);
              int secondLargest = number[number.length - 2];
              System.out.println("Second Largest: " + secondLargest);
-             
+
              // Second Smallest
              int secondSmallest = number[1];
              System.out.println("Second Smallest :"+ secondSmallest);
-             
-        /*
-         
-          
-          
-         
-          Find second largest element
-          Find second smallest element
-        */
+    
        sc.close();
     }
 }
