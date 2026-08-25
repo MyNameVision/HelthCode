@@ -11,19 +11,19 @@ public class LearnClass {
     How To Access Class
     1. Same class ---> Create Object of class
     2. Same Package
-    3. Different Package ----> import package.class
+    3. Different Package ----> import package.class 
     
     */
 
-  String name ="Sitaram";       
+  public String name ="Sitaram";       
 
-static void number(int n){         // N is Parameter
+public static void number(int n){         // N is Parameter
    for(int i =0;i<n;i++){
     System.out.print(i + " ");
    }
 }
 
-void sample(){
+public void sample(){
     System.out.println("this is non-static method");
 }
 
