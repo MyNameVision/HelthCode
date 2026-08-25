@@ -1,4 +1,4 @@
-package oopsEncap;
+package LearnOOPS;
 
 public class Encapsulation {
 
